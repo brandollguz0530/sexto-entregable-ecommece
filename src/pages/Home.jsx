@@ -80,7 +80,7 @@ const Home = () => {
       </div>
     
       <ul 
-          className={`relative bg-white shadow-xl transition-all duration-300 ease-in-out  ${
+          className={`relative bg-white shadow-xl transition-all duration-300 ease-in-out max-w-[1000px] mx-auto  ${
           showCategories ? "block" : "hidden"
         }`}
         >

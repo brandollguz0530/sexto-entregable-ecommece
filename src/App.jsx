@@ -9,6 +9,7 @@ import NotFound from './pages/NotFound'
 import Loader from './components/layout/Louder'
 import ProtectedAuth from './components/auth/ProtectedAuth'
 import Footer from './components/product/Footer'
+import Cart from './components/cart/Cart'
 
 
 function App() {
@@ -36,7 +37,7 @@ function App() {
         
   
       </Routes>
-    
+      <Cart />
       <Loader />
     </section>
   )

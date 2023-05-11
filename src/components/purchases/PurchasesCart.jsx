@@ -11,7 +11,7 @@ const PurchasesCart = ({purchase}) => {
           <h4>{purchase.product.title}</h4>
         </section>
 
-        <section className='grid text-center gap-3 sm:grid-cols-3'>
+        <section className='grid text-center gap-6 sm:grid-cols-3'>
           <span className='text-gray-400'>{formatDateDDMMYYYY(purchase.createdAt)}</span>
           <div> 
           <span className='text-gray-400 p-2 border-[1px] border-gray-400'>{purchase.quantity}</span>
